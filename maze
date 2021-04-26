@@ -87,7 +87,18 @@ def setup_maze(level):
 wall = Wall()
 piece = Piece()
 
+walls = []
+
 setup_maze(levels[1])
+print(walls)
+
+turtle.listen()
+turtle.onkey(player.go_up,"Up")
+turtle.onkey(player.go_down,"Down")
+turtle.onkey(player.go_right,"Right")
+turtle.onkey(player.go_left,"Left")
+
+wn.tracer(0)
 
 while True:
   pass
