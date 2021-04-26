@@ -93,10 +93,10 @@ setup_maze(levels[1])
 print(walls)
 
 turtle.listen()
-turtle.onkey(player.go_up,"Up")
-turtle.onkey(player.go_down,"Down")
-turtle.onkey(player.go_right,"Right")
-turtle.onkey(player.go_left,"Left")
+turtle.onkey(piece.go_up,"Up")
+turtle.onkey(piece.go_down,"Down")
+turtle.onkey(piece.go_right,"Right")
+turtle.onkey(piece.go_left,"Left")
 
 wn.tracer(0)
 
